@@ -35,7 +35,7 @@ def conway(array,t):
         reprod = np.where(neighbors==3)
 
         grid[overpop] = 0
-        grid[underpop] = 1
+        grid[underpop] = 1 
         grid[reprod] = 1
 
         grid_history[i+1,:,:] = grid
