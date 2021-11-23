@@ -3,7 +3,6 @@ test conway.py.
 """
 
 import conway as cw
-import numpy as np
 
 
 def test_conway(t):
