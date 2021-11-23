@@ -21,4 +21,3 @@ def test_conway(t):
     comparisson = oscillator_state1[start::,:,:] == oscillator_state2.transpose(0,2,1)
     assert(comparisson.all())
 
-#test_conway(t=15)
